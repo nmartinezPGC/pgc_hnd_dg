@@ -1,0 +1,31 @@
+EP: ttp://localhost:8080/rest/data/report/custom/paginate
+
+Objeto básico:
+{
+   "add_columns":[
+      "Activity Id",
+      "Status",
+      "Donor Agency",
+      "Primary Sector",
+      "Zone"
+   ],
+   "add_measures":[
+      "Actual Commitments",
+      "Actual Disbursements"
+   ],
+   "page":1,
+   "recordsPerPage":10,
+   "regenerate":true,
+   "rowTotals":true,
+   "raw_values":[
+      "M"
+   ],
+   "name":"api:totalactivities",
+   "show_empty_rows":true,
+   "settings":{
+      "amountFormat":{
+         "amountUnits":1.0e-6,
+         "maxFracDigits":"0"
+      }
+   }
+}

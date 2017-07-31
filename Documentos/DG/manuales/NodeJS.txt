@@ -1,0 +1,2 @@
+http://www.netconsulting.es/blog/nodejs/
+https://nodejs-es.github.io/api/all.html
